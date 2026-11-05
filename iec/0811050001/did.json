@@ -1,0 +1,28 @@
+{
+  "id": "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0811050001",
+  "service": [
+    {
+      "id": "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0811050001#oid4vci-offer",
+      "type": "OID4VCICredentialOffer",
+      "serviceEndpoint": "http://host.docker.internal:3212/v1/entity-wallet/iec/0811050001/credential-offers"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2018/v1"
+  ],
+  "authentication": [
+    "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0811050001#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0811050001#key-1"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0811050001#key-1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0811050001",
+      "publicKeyBase58": "G42wJq29uq7cQ8ANUj4Z8NqJ9dqi6ZwxCCpsK3eusD45"
+    }
+  ]
+}
