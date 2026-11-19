@@ -22,7 +22,7 @@
       "id": "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0527408152#key-1",
       "type": "Ed25519VerificationKey2018",
       "controller": "did:web:mustansir-m.github.io:btn-wallet-dids:iec:0527408152",
-      "publicKeyBase58": "78gLpF6LJ45gNZVEzpTtznPiogTT6vXynvxbHPoLsWZ6"
+      "publicKeyBase58": "CyibE7BaVtMVRTuaAVd442a71yLL52LMSP3mtXCMNy6"
     }
   ]
 }
